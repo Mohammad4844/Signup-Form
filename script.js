@@ -1,8 +1,3 @@
-inputs = document.querySelectorAll('input')
-inputs.forEach((input)=>{
-  input.setAttribute('isrequired', 'false')
-})
-
 pwd = document.getElementById('pwd');
 pwd_confirm = document.getElementById('pwd-confirm');
 

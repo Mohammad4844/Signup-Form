@@ -119,6 +119,8 @@ input {
   height: 1.2rem;
 
   font-family: 'Courier New', Courier, monospace;
+
+  padding: 0.5rem;
 }
 
 input:valid:focus {
