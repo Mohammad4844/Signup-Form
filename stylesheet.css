@@ -1,0 +1,156 @@
+@font-face {
+  font-family: "Norse Bold";
+  src: url("fonts/Norse-Bold.otf");
+ 
+  }
+
+body {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.sidebar {
+  background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.banner {
+  color: white;
+  font-family: "Norse Bold";
+  font-size: 5em;
+
+  display: flex;
+  align-items: center;
+
+  position: relative;
+  top: 20%;
+
+  background-color: rgba(0, 0, 0, 0.4);
+
+  padding: 1rem;
+  padding-right: 6rem;
+}
+
+.banner > img {
+  height: 1.3em;
+}
+
+.banner > span {
+  position: relative;
+  top: 10px;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+
+  background-color: rgb(245, 245, 255);
+}
+
+.form-desc {
+  padding: 2rem;
+  padding-top: 5rem;
+
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-main {
+  background-color: white;
+  box-shadow: 0px 7px 5px lightgray;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 2rem;
+}
+
+.form-main > * {
+  padding: 0.5rem;
+}
+
+.form-submit {
+  padding: 2rem;
+}
+
+h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.7rem;
+  font-weight: 300;
+
+  margin: 0px;
+}
+
+.form-row {
+  display: flex;
+  gap: 4rem;
+  margin-bottom: 0.5rem;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9rem;
+  font-weight:500;
+
+  text-transform: uppercase;
+}
+
+input {
+  border: 1px solid lightgray;
+  border-radius: 4px;
+
+  width: 13rem;
+  height: 1.2rem;
+
+  font-family: 'Courier New', Courier, monospace;
+}
+
+input:valid:focus {
+  border-color: green;
+}
+
+input:invalid:focus {
+  border-color: red;
+}
+
+.pwd-mismatch-error {
+  display: none;
+
+  margin: 0px;
+
+  font-size: 0.6rem;
+  font-family: Courier;
+  color: red;
+}
+
+button[type=submit] {
+  border: none;
+  border-radius: 8px;
+  background-color: #596D48;
+
+  padding: 0.7rem 2rem;
+
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.8rem;
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+}
